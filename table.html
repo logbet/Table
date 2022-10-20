@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Exo+2&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <title>Tables</title>
+    <style>
+      body {
+        background-color: rgba(255, 255, 255, 0.408);
+      }
+      h3 {
+        margin: auto;
+        width: 400px;
+        justify-content: center;
+        font-size: 30px;
+        font-family: "Exo 2", Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding: 20px;
+        transition: text-shadow 0.5s;
+      }
+      h3:hover {
+        font-size: 32px;
+        text-shadow: 0 1px #808d93, -1px 0 #c2c2c2, -1px 2px #808d93,
+          -2px 1px #c2c2c2, -2px 3px #808d93, -3px 2px #c2c2c2, -3px 4px #808d93,
+          -4px 3px #c2c2c2, -4px 5px #808d93, -5px 4px #c2c2c2, -5px 6px #808d93,
+          -6px 5px #c2c2c2, -6px 7px #808d93, -7px 6px #c2c2c2, -7px 8px #808d93,
+          -8px 7px #c2c2c2;
+      }
+      table {
+        margin: auto;
+        justify-content: center;
+        border-collapse: collapse;
+        border-radius: 20px;
+        border: 5px solid black;
+        width: 900px;
+      }
+      th {
+        border: 2px solid rgb(0, 0, 0);
+        font-family: "Exo 2", Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        padding: 20px;
+        transition: text-shadow 0.5s, color 1s, font-size 0.1s;
+      }
+
+      th:hover {
+        text-shadow: 0 1px #808d93, -1px 0 #c2c2c2, -1px 2px #808d93,
+          -2px 1px #c2c2c2, -2px 3px #808d93, -3px 2px #c2c2c2, -3px 4px #808d93,
+          -4px 3px #c2c2c2, -4px 5px #808d93, -5px 4px #c2c2c2, -5px 6px #808d93,
+          -6px 5px #c2c2c2, -6px 7px #808d93, -7px 6px #c2c2c2, -7px 8px #808d93,
+          -8px 7px #c2c2c2;
+      }
+
+      td {
+        border: 1px solid black;
+        font-family: "Alegreya Sans SC", Arial, Helvetica, sans-serif;
+        padding: 10px;
+      }
+
+      .Games {
+        font-weight: 600;
+        transition: font-size 0.5s, text-shadow 0.5s;
+      }
+      .Games:hover {
+        font-size: 15px;
+        text-shadow: -4px 5px 2px rgba(0, 0, 0, 0.309);
+      }
+
+      .Rating {
+        font-weight: 600;
+        transition: font-size 0.5s, text-shadow 0.5s;
+      }
+
+      .Rating:hover {
+        font-size: 15px;
+        text-shadow: -4px 5px 2px rgba(0, 0, 0, 0.309);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Table">
+      <h3>Personal Favorites Games</h3>
+      <table>
+        <tr>
+          <th>Games</th>
+          <th>Experience</th>
+          <th>My Ratings</th>
+        </tr>
+        <tr>
+          <td class="Games">Elden Ring</td>
+          <td class="Experience">
+            The action roleplaying game that I play in pc, I have so much fun
+            lot of things happen and lessons like being patience in some of many
+            bosses and farming some weapons to improve my characters.
+          </td>
+          <td class="Rating">SS</td>
+        </tr>
+        <tr>
+          <td class="Games">Genshin Impact</td>
+          <td class="Experience">
+            I really love this game But the downside is the developer of this
+            game is their goal is to be rich and the player base that love the
+            game is not heard about their request.
+          </td>
+          <td class="Rating">S</td>
+        </tr>
+        <tr>
+          <td class="Games">Clash Of Clans (COC)</td>
+          <td class="Experience">
+            Yep I still love this game it always bring me back to play this game
+            again and again
+          </td>
+          <td class="Rating">A+</td>
+        </tr>
+        <tr>
+          <td class="Games">Warframe</td>
+          <td class="Experience">
+            I love the game that you can create your own pallete and design of
+            my warframe to look it awesome and unique and allow me to show my
+            personality ingame.
+          </td>
+          <td class="Rating">A</td>
+        </tr>
+        <tr>
+          <td class="Games">League Of Legends (LOL)</td>
+          <td class="Experience">
+            The game is so many toxic players but I like the skins and the
+            gameplay that this game give to me.
+          </td>
+          <td class="Rating">B</td>
+        </tr>
+        <tr>
+          <td class="Games">Valorant</td>
+          <td class="Experience">
+            I only love this game because lot of my friendds playing this nad
+            lot of us trolling ingame so its fun!
+          </td>
+          <td class="Rating">A</td>
+        </tr>
+        <tr>
+          <td class="Games">Overwatch 2</td>
+          <td class="Experience">
+            This is a new game that become free so I played it recently, it
+            feels like playing a game of full of heroes even though I love to
+            play villain haha..
+          </td>
+          <td class="Rating">A</td>
+        </tr>
+        <tr>
+          <td class="Games">Stray</td>
+          <td class="Experience">
+            This is the game best cat game I ever played period
+          </td>
+          <td class="Rating">SSS</td>
+        </tr>
+        <tr>
+          <td class="Games">Monster Hunter 3rd portable</td>
+          <td class="Experience">
+            LIke in Elden Ring this is game test my skills a lot
+          </td>
+          <td class="Rating">SS</td>
+        </tr>
+        <tr>
+          <td class="Games">Spider-Man Remastered</td>
+          <td class="Experience">
+            I really love Spider-Man since child so I really enjoy this game
+            swinging, accrobatic moves and fighting a lot of villains
+          </td>
+          <td class="Rating">SS</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
